@@ -1,0 +1,875 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E6D8471A117D550AD0A3D11 /* libPods-BYArop.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FEA20EE8A842BB3AF0D7666 /* libPods-BYArop.a */; };
+		840C43431FAC2604000A2321 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 840C43421FAC2604000A2321 /* AppDelegate.m */; };
+		840C43461FAC2604000A2321 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 840C43451FAC2604000A2321 /* ViewController.m */; };
+		840C43491FAC2604000A2321 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840C43471FAC2604000A2321 /* Main.storyboard */; };
+		840C434B1FAC2604000A2321 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 840C434A1FAC2604000A2321 /* Assets.xcassets */; };
+		840C434E1FAC2604000A2321 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840C434C1FAC2604000A2321 /* LaunchScreen.storyboard */; };
+		840C43511FAC2604000A2321 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 840C43501FAC2604000A2321 /* main.m */; };
+		840C435B1FAC2604000A2321 /* BYAropTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 840C435A1FAC2604000A2321 /* BYAropTests.m */; };
+		840C43661FAC2604000A2321 /* BYAropUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 840C43651FAC2604000A2321 /* BYAropUITests.m */; };
+		840C43991FAC2E75000A2321 /* JYAudioVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 840C43751FAC26A6000A2321 /* JYAudioVC.m */; };
+		840C439A1FAC2E7A000A2321 /* JYFileListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 840C43771FAC26A6000A2321 /* JYFileListCell.m */; };
+		840C439B1FAC2E7E000A2321 /* JYFileListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 840C43791FAC26A6000A2321 /* JYFileListVC.m */; };
+		840C439C1FAC2E82000A2321 /* JYFileModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 840C437B1FAC26A6000A2321 /* JYFileModel.m */; };
+		840C439D1FAC2E85000A2321 /* JYVideoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 840C437D1FAC26A6000A2321 /* JYVideoVC.m */; };
+		840C439E1FAC2E8D000A2321 /* QQActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 840C43801FAC26A6000A2321 /* QQActivity.m */; };
+		840C439F1FAC2E90000A2321 /* QQReadActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 840C43821FAC26A6000A2321 /* QQReadActivity.m */; };
+		840C43A01FAC2E93000A2321 /* QQSessionActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 840C43841FAC26A6000A2321 /* QQSessionActivity.m */; };
+		840C43A11FAC2E99000A2321 /* WeixinActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 840C438C1FAC26A6000A2321 /* WeixinActivity.m */; };
+		840C43A21FAC2E9C000A2321 /* WeixinSessionActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 840C438E1FAC26A6000A2321 /* WeixinSessionActivity.m */; };
+		840C43A31FAC2EA0000A2321 /* WeixinTimelineActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 840C43901FAC26A6000A2321 /* WeixinTimelineActivity.m */; };
+		840C43A41FAC2EA9000A2321 /* icon_session.png in Resources */ = {isa = PBXBuildFile; fileRef = 840C43871FAC26A6000A2321 /* icon_session.png */; };
+		840C43A51FAC2EAC000A2321 /* icon_session@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 840C43881FAC26A6000A2321 /* icon_session@2x.png */; };
+		840C43A61FAC2EAF000A2321 /* icon_timeline.png in Resources */ = {isa = PBXBuildFile; fileRef = 840C43891FAC26A6000A2321 /* icon_timeline.png */; };
+		840C43A71FAC2EB3000A2321 /* icon_timeline@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 840C438A1FAC26A6000A2321 /* icon_timeline@2x.png */; };
+		840C43B61FAC30F3000A2321 /* UIView+CustomAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 840C43B51FAC30E6000A2321 /* UIView+CustomAutoLayout.m */; };
+		840C43E51FAC386B000A2321 /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840C43DD1FAC385D000A2321 /* TencentOpenAPI.framework */; };
+		840C43E81FAC39AC000A2321 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 840C43E61FAC397B000A2321 /* Podfile */; };
+		840C43EB1FAC3CAA000A2321 /* UIImage+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 840C43E91FAC3CAA000A2321 /* UIImage+Common.m */; };
+		840C43EC1FAC3EF1000A2321 /* 需求分析说明书模板.doc in Resources */ = {isa = PBXBuildFile; fileRef = 840C43981FAC2A19000A2321 /* 需求分析说明书模板.doc */; };
+		840C43ED1FAC3F84000A2321 /* 聚合接口API.docx in Resources */ = {isa = PBXBuildFile; fileRef = 840C43971FAC2A05000A2321 /* 聚合接口API.docx */; };
+		840C43EE1FAC3F89000A2321 /* 2011华为笔试题.doc in Resources */ = {isa = PBXBuildFile; fileRef = 840C43951FAC29EC000A2321 /* 2011华为笔试题.doc */; };
+		840C43EF1FAC3F8E000A2321 /* 屏幕快照 2017-03-09 上午11.21.11.png in Resources */ = {isa = PBXBuildFile; fileRef = 840C43931FAC29DC000A2321 /* 屏幕快照 2017-03-09 上午11.21.11.png */; };
+		840C43F01FAC3F91000A2321 /* 屏幕快照 2017-03-09 下午12.31.55.png in Resources */ = {isa = PBXBuildFile; fileRef = 840C43941FAC29DC000A2321 /* 屏幕快照 2017-03-09 下午12.31.55.png */; };
+		840C43F11FAC3F95000A2321 /* 765405820160423163637.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 840C43921FAC29C3000A2321 /* 765405820160423163637.pdf */; };
+		840C43F31FAC3FCD000A2321 /* sourceData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 840C43F21FAC3FCD000A2321 /* sourceData.plist */; };
+		840C43F61FAC4166000A2321 /* JYDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 840C43F51FAC4166000A2321 /* JYDataModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		840C43571FAC2604000A2321 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 840C43361FAC2604000A2321 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 840C433D1FAC2604000A2321;
+			remoteInfo = BYArop;
+		};
+		840C43621FAC2604000A2321 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 840C43361FAC2604000A2321 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 840C433D1FAC2604000A2321;
+			remoteInfo = BYArop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		840C43B31FAC2F50000A2321 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0FCEBAA3DC15B662FCBCAE04 /* Pods-BYArop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BYArop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BYArop/Pods-BYArop.debug.xcconfig"; sourceTree = "<group>"; };
+		0FEA20EE8A842BB3AF0D7666 /* libPods-BYArop.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BYArop.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ECD99A9A09581A91796BF72 /* Pods-BYArop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BYArop.release.xcconfig"; path = "Pods/Target Support Files/Pods-BYArop/Pods-BYArop.release.xcconfig"; sourceTree = "<group>"; };
+		840C433E1FAC2604000A2321 /* BYArop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BYArop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		840C43411FAC2604000A2321 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		840C43421FAC2604000A2321 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		840C43441FAC2604000A2321 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		840C43451FAC2604000A2321 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		840C43481FAC2604000A2321 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		840C434A1FAC2604000A2321 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		840C434D1FAC2604000A2321 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		840C434F1FAC2604000A2321 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		840C43501FAC2604000A2321 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		840C43561FAC2604000A2321 /* BYAropTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BYAropTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		840C435A1FAC2604000A2321 /* BYAropTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYAropTests.m; sourceTree = "<group>"; };
+		840C435C1FAC2604000A2321 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		840C43611FAC2604000A2321 /* BYAropUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BYAropUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		840C43651FAC2604000A2321 /* BYAropUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYAropUITests.m; sourceTree = "<group>"; };
+		840C43671FAC2604000A2321 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		840C43741FAC26A6000A2321 /* JYAudioVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYAudioVC.h; sourceTree = "<group>"; };
+		840C43751FAC26A6000A2321 /* JYAudioVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYAudioVC.m; sourceTree = "<group>"; };
+		840C43761FAC26A6000A2321 /* JYFileListCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYFileListCell.h; sourceTree = "<group>"; };
+		840C43771FAC26A6000A2321 /* JYFileListCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYFileListCell.m; sourceTree = "<group>"; };
+		840C43781FAC26A6000A2321 /* JYFileListVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYFileListVC.h; sourceTree = "<group>"; };
+		840C43791FAC26A6000A2321 /* JYFileListVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYFileListVC.m; sourceTree = "<group>"; };
+		840C437A1FAC26A6000A2321 /* JYFileModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYFileModel.h; sourceTree = "<group>"; };
+		840C437B1FAC26A6000A2321 /* JYFileModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYFileModel.m; sourceTree = "<group>"; };
+		840C437C1FAC26A6000A2321 /* JYVideoVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYVideoVC.h; sourceTree = "<group>"; };
+		840C437D1FAC26A6000A2321 /* JYVideoVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYVideoVC.m; sourceTree = "<group>"; };
+		840C437F1FAC26A6000A2321 /* QQActivity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QQActivity.h; sourceTree = "<group>"; };
+		840C43801FAC26A6000A2321 /* QQActivity.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQActivity.m; sourceTree = "<group>"; };
+		840C43811FAC26A6000A2321 /* QQReadActivity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QQReadActivity.h; sourceTree = "<group>"; };
+		840C43821FAC26A6000A2321 /* QQReadActivity.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQReadActivity.m; sourceTree = "<group>"; };
+		840C43831FAC26A6000A2321 /* QQSessionActivity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QQSessionActivity.h; sourceTree = "<group>"; };
+		840C43841FAC26A6000A2321 /* QQSessionActivity.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQSessionActivity.m; sourceTree = "<group>"; };
+		840C43871FAC26A6000A2321 /* icon_session.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_session.png; sourceTree = "<group>"; };
+		840C43881FAC26A6000A2321 /* icon_session@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_session@2x.png"; sourceTree = "<group>"; };
+		840C43891FAC26A6000A2321 /* icon_timeline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_timeline.png; sourceTree = "<group>"; };
+		840C438A1FAC26A6000A2321 /* icon_timeline@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_timeline@2x.png"; sourceTree = "<group>"; };
+		840C438B1FAC26A6000A2321 /* WeixinActivity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeixinActivity.h; sourceTree = "<group>"; };
+		840C438C1FAC26A6000A2321 /* WeixinActivity.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeixinActivity.m; sourceTree = "<group>"; };
+		840C438D1FAC26A6000A2321 /* WeixinSessionActivity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeixinSessionActivity.h; sourceTree = "<group>"; };
+		840C438E1FAC26A6000A2321 /* WeixinSessionActivity.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeixinSessionActivity.m; sourceTree = "<group>"; };
+		840C438F1FAC26A6000A2321 /* WeixinTimelineActivity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WeixinTimelineActivity.h; sourceTree = "<group>"; };
+		840C43901FAC26A6000A2321 /* WeixinTimelineActivity.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeixinTimelineActivity.m; sourceTree = "<group>"; };
+		840C43921FAC29C3000A2321 /* 765405820160423163637.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = 765405820160423163637.pdf; sourceTree = "<group>"; };
+		840C43931FAC29DC000A2321 /* 屏幕快照 2017-03-09 上午11.21.11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "屏幕快照 2017-03-09 上午11.21.11.png"; sourceTree = "<group>"; };
+		840C43941FAC29DC000A2321 /* 屏幕快照 2017-03-09 下午12.31.55.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "屏幕快照 2017-03-09 下午12.31.55.png"; sourceTree = "<group>"; };
+		840C43951FAC29EC000A2321 /* 2011华为笔试题.doc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "2011华为笔试题.doc"; sourceTree = "<group>"; };
+		840C43961FAC29FB000A2321 /* 核心代码片段.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "核心代码片段.docx"; sourceTree = "<group>"; };
+		840C43971FAC2A05000A2321 /* 聚合接口API.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "聚合接口API.docx"; sourceTree = "<group>"; };
+		840C43981FAC2A19000A2321 /* 需求分析说明书模板.doc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "需求分析说明书模板.doc"; sourceTree = "<group>"; };
+		840C43B41FAC30E6000A2321 /* UIView+CustomAutoLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+CustomAutoLayout.h"; sourceTree = "<group>"; };
+		840C43B51FAC30E6000A2321 /* UIView+CustomAutoLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+CustomAutoLayout.m"; sourceTree = "<group>"; };
+		840C43B71FAC313A000A2321 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		840C43DD1FAC385D000A2321 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TencentOpenAPI.framework; sourceTree = "<group>"; };
+		840C43E61FAC397B000A2321 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		840C43E91FAC3CAA000A2321 /* UIImage+Common.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Common.m"; sourceTree = "<group>"; };
+		840C43EA1FAC3CAA000A2321 /* UIImage+Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Common.h"; sourceTree = "<group>"; };
+		840C43F21FAC3FCD000A2321 /* sourceData.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = sourceData.plist; sourceTree = "<group>"; };
+		840C43F41FAC4166000A2321 /* JYDataModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYDataModel.h; sourceTree = "<group>"; };
+		840C43F51FAC4166000A2321 /* JYDataModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYDataModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		840C433B1FAC2604000A2321 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840C43E51FAC386B000A2321 /* TencentOpenAPI.framework in Frameworks */,
+				0E6D8471A117D550AD0A3D11 /* libPods-BYArop.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840C43531FAC2604000A2321 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840C435E1FAC2604000A2321 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09FDDA1DB310ED130DB01B0E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0FEA20EE8A842BB3AF0D7666 /* libPods-BYArop.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		840C43351FAC2604000A2321 = {
+			isa = PBXGroup;
+			children = (
+				840C43E61FAC397B000A2321 /* Podfile */,
+				840C43401FAC2604000A2321 /* BYArop */,
+				840C43591FAC2604000A2321 /* BYAropTests */,
+				840C43641FAC2604000A2321 /* BYAropUITests */,
+				840C433F1FAC2604000A2321 /* Products */,
+				DECB6A634EFE34658AA365BC /* Pods */,
+				09FDDA1DB310ED130DB01B0E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		840C433F1FAC2604000A2321 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				840C433E1FAC2604000A2321 /* BYArop.app */,
+				840C43561FAC2604000A2321 /* BYAropTests.xctest */,
+				840C43611FAC2604000A2321 /* BYAropUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		840C43401FAC2604000A2321 /* BYArop */ = {
+			isa = PBXGroup;
+			children = (
+				840C43911FAC2998000A2321 /* Resource */,
+				840C43731FAC26A6000A2321 /* FileMenu */,
+				840C43411FAC2604000A2321 /* AppDelegate.h */,
+				840C43421FAC2604000A2321 /* AppDelegate.m */,
+				840C43441FAC2604000A2321 /* ViewController.h */,
+				840C43451FAC2604000A2321 /* ViewController.m */,
+				840C43471FAC2604000A2321 /* Main.storyboard */,
+				840C434A1FAC2604000A2321 /* Assets.xcassets */,
+				840C434C1FAC2604000A2321 /* LaunchScreen.storyboard */,
+				840C434F1FAC2604000A2321 /* Info.plist */,
+				840C43501FAC2604000A2321 /* main.m */,
+				840C43B71FAC313A000A2321 /* PrefixHeader.pch */,
+			);
+			path = BYArop;
+			sourceTree = "<group>";
+		};
+		840C43591FAC2604000A2321 /* BYAropTests */ = {
+			isa = PBXGroup;
+			children = (
+				840C435A1FAC2604000A2321 /* BYAropTests.m */,
+				840C435C1FAC2604000A2321 /* Info.plist */,
+			);
+			path = BYAropTests;
+			sourceTree = "<group>";
+		};
+		840C43641FAC2604000A2321 /* BYAropUITests */ = {
+			isa = PBXGroup;
+			children = (
+				840C43651FAC2604000A2321 /* BYAropUITests.m */,
+				840C43671FAC2604000A2321 /* Info.plist */,
+			);
+			path = BYAropUITests;
+			sourceTree = "<group>";
+		};
+		840C43731FAC26A6000A2321 /* FileMenu */ = {
+			isa = PBXGroup;
+			children = (
+				840C43741FAC26A6000A2321 /* JYAudioVC.h */,
+				840C43751FAC26A6000A2321 /* JYAudioVC.m */,
+				840C43761FAC26A6000A2321 /* JYFileListCell.h */,
+				840C43771FAC26A6000A2321 /* JYFileListCell.m */,
+				840C43781FAC26A6000A2321 /* JYFileListVC.h */,
+				840C43791FAC26A6000A2321 /* JYFileListVC.m */,
+				840C437A1FAC26A6000A2321 /* JYFileModel.h */,
+				840C437B1FAC26A6000A2321 /* JYFileModel.m */,
+				840C437C1FAC26A6000A2321 /* JYVideoVC.h */,
+				840C437D1FAC26A6000A2321 /* JYVideoVC.m */,
+				840C437E1FAC26A6000A2321 /* QQActivity */,
+				840C43851FAC26A6000A2321 /* WeixinActivity */,
+				840C43F41FAC4166000A2321 /* JYDataModel.h */,
+				840C43F51FAC4166000A2321 /* JYDataModel.m */,
+			);
+			path = FileMenu;
+			sourceTree = "<group>";
+		};
+		840C437E1FAC26A6000A2321 /* QQActivity */ = {
+			isa = PBXGroup;
+			children = (
+				840C437F1FAC26A6000A2321 /* QQActivity.h */,
+				840C43801FAC26A6000A2321 /* QQActivity.m */,
+				840C43811FAC26A6000A2321 /* QQReadActivity.h */,
+				840C43821FAC26A6000A2321 /* QQReadActivity.m */,
+				840C43831FAC26A6000A2321 /* QQSessionActivity.h */,
+				840C43841FAC26A6000A2321 /* QQSessionActivity.m */,
+			);
+			path = QQActivity;
+			sourceTree = "<group>";
+		};
+		840C43851FAC26A6000A2321 /* WeixinActivity */ = {
+			isa = PBXGroup;
+			children = (
+				840C43861FAC26A6000A2321 /* Resources */,
+				840C438B1FAC26A6000A2321 /* WeixinActivity.h */,
+				840C438C1FAC26A6000A2321 /* WeixinActivity.m */,
+				840C438D1FAC26A6000A2321 /* WeixinSessionActivity.h */,
+				840C438E1FAC26A6000A2321 /* WeixinSessionActivity.m */,
+				840C438F1FAC26A6000A2321 /* WeixinTimelineActivity.h */,
+				840C43901FAC26A6000A2321 /* WeixinTimelineActivity.m */,
+			);
+			path = WeixinActivity;
+			sourceTree = "<group>";
+		};
+		840C43861FAC26A6000A2321 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				840C43871FAC26A6000A2321 /* icon_session.png */,
+				840C43881FAC26A6000A2321 /* icon_session@2x.png */,
+				840C43891FAC26A6000A2321 /* icon_timeline.png */,
+				840C438A1FAC26A6000A2321 /* icon_timeline@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		840C43911FAC2998000A2321 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				840C43EA1FAC3CAA000A2321 /* UIImage+Common.h */,
+				840C43E91FAC3CAA000A2321 /* UIImage+Common.m */,
+				840C43DB1FAC385D000A2321 /* PlatformSDK */,
+				840C43B41FAC30E6000A2321 /* UIView+CustomAutoLayout.h */,
+				840C43B51FAC30E6000A2321 /* UIView+CustomAutoLayout.m */,
+				840C43981FAC2A19000A2321 /* 需求分析说明书模板.doc */,
+				840C43971FAC2A05000A2321 /* 聚合接口API.docx */,
+				840C43961FAC29FB000A2321 /* 核心代码片段.docx */,
+				840C43951FAC29EC000A2321 /* 2011华为笔试题.doc */,
+				840C43931FAC29DC000A2321 /* 屏幕快照 2017-03-09 上午11.21.11.png */,
+				840C43941FAC29DC000A2321 /* 屏幕快照 2017-03-09 下午12.31.55.png */,
+				840C43921FAC29C3000A2321 /* 765405820160423163637.pdf */,
+				840C43F21FAC3FCD000A2321 /* sourceData.plist */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		840C43DB1FAC385D000A2321 /* PlatformSDK */ = {
+			isa = PBXGroup;
+			children = (
+				840C43DC1FAC385D000A2321 /* QQSDK */,
+			);
+			path = PlatformSDK;
+			sourceTree = "<group>";
+		};
+		840C43DC1FAC385D000A2321 /* QQSDK */ = {
+			isa = PBXGroup;
+			children = (
+				840C43DD1FAC385D000A2321 /* TencentOpenAPI.framework */,
+			);
+			path = QQSDK;
+			sourceTree = "<group>";
+		};
+		DECB6A634EFE34658AA365BC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0FCEBAA3DC15B662FCBCAE04 /* Pods-BYArop.debug.xcconfig */,
+				7ECD99A9A09581A91796BF72 /* Pods-BYArop.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		840C433D1FAC2604000A2321 /* BYArop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 840C436A1FAC2604000A2321 /* Build configuration list for PBXNativeTarget "BYArop" */;
+			buildPhases = (
+				A0CF1F234EAD558A47D4FAF1 /* [CP] Check Pods Manifest.lock */,
+				840C433A1FAC2604000A2321 /* Sources */,
+				840C433B1FAC2604000A2321 /* Frameworks */,
+				840C433C1FAC2604000A2321 /* Resources */,
+				840C43B31FAC2F50000A2321 /* Embed Frameworks */,
+				837320ED91CC726C4CF22997 /* [CP] Embed Pods Frameworks */,
+				BA08774A1FF75D11CD561321 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BYArop;
+			productName = BYArop;
+			productReference = 840C433E1FAC2604000A2321 /* BYArop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		840C43551FAC2604000A2321 /* BYAropTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 840C436D1FAC2604000A2321 /* Build configuration list for PBXNativeTarget "BYAropTests" */;
+			buildPhases = (
+				840C43521FAC2604000A2321 /* Sources */,
+				840C43531FAC2604000A2321 /* Frameworks */,
+				840C43541FAC2604000A2321 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				840C43581FAC2604000A2321 /* PBXTargetDependency */,
+			);
+			name = BYAropTests;
+			productName = BYAropTests;
+			productReference = 840C43561FAC2604000A2321 /* BYAropTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		840C43601FAC2604000A2321 /* BYAropUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 840C43701FAC2604000A2321 /* Build configuration list for PBXNativeTarget "BYAropUITests" */;
+			buildPhases = (
+				840C435D1FAC2604000A2321 /* Sources */,
+				840C435E1FAC2604000A2321 /* Frameworks */,
+				840C435F1FAC2604000A2321 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				840C43631FAC2604000A2321 /* PBXTargetDependency */,
+			);
+			name = BYAropUITests;
+			productName = BYAropUITests;
+			productReference = 840C43611FAC2604000A2321 /* BYAropUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		840C43361FAC2604000A2321 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = XHWL;
+				TargetAttributes = {
+					840C433D1FAC2604000A2321 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					840C43551FAC2604000A2321 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 840C433D1FAC2604000A2321;
+					};
+					840C43601FAC2604000A2321 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 840C433D1FAC2604000A2321;
+					};
+				};
+			};
+			buildConfigurationList = 840C43391FAC2604000A2321 /* Build configuration list for PBXProject "BYArop" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 840C43351FAC2604000A2321;
+			productRefGroup = 840C433F1FAC2604000A2321 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				840C433D1FAC2604000A2321 /* BYArop */,
+				840C43551FAC2604000A2321 /* BYAropTests */,
+				840C43601FAC2604000A2321 /* BYAropUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		840C433C1FAC2604000A2321 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840C43A51FAC2EAC000A2321 /* icon_session@2x.png in Resources */,
+				840C43F01FAC3F91000A2321 /* 屏幕快照 2017-03-09 下午12.31.55.png in Resources */,
+				840C43EE1FAC3F89000A2321 /* 2011华为笔试题.doc in Resources */,
+				840C434E1FAC2604000A2321 /* LaunchScreen.storyboard in Resources */,
+				840C43E81FAC39AC000A2321 /* Podfile in Resources */,
+				840C43EF1FAC3F8E000A2321 /* 屏幕快照 2017-03-09 上午11.21.11.png in Resources */,
+				840C43A71FAC2EB3000A2321 /* icon_timeline@2x.png in Resources */,
+				840C43ED1FAC3F84000A2321 /* 聚合接口API.docx in Resources */,
+				840C43F11FAC3F95000A2321 /* 765405820160423163637.pdf in Resources */,
+				840C434B1FAC2604000A2321 /* Assets.xcassets in Resources */,
+				840C43491FAC2604000A2321 /* Main.storyboard in Resources */,
+				840C43EC1FAC3EF1000A2321 /* 需求分析说明书模板.doc in Resources */,
+				840C43A41FAC2EA9000A2321 /* icon_session.png in Resources */,
+				840C43F31FAC3FCD000A2321 /* sourceData.plist in Resources */,
+				840C43A61FAC2EAF000A2321 /* icon_timeline.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840C43541FAC2604000A2321 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840C435F1FAC2604000A2321 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		837320ED91CC726C4CF22997 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BYArop/Pods-BYArop-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0CF1F234EAD558A47D4FAF1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BYArop-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA08774A1FF75D11CD561321 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BYArop/Pods-BYArop-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		840C433A1FAC2604000A2321 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840C43EB1FAC3CAA000A2321 /* UIImage+Common.m in Sources */,
+				840C43A11FAC2E99000A2321 /* WeixinActivity.m in Sources */,
+				840C43A01FAC2E93000A2321 /* QQSessionActivity.m in Sources */,
+				840C439C1FAC2E82000A2321 /* JYFileModel.m in Sources */,
+				840C43A31FAC2EA0000A2321 /* WeixinTimelineActivity.m in Sources */,
+				840C439D1FAC2E85000A2321 /* JYVideoVC.m in Sources */,
+				840C43991FAC2E75000A2321 /* JYAudioVC.m in Sources */,
+				840C43F61FAC4166000A2321 /* JYDataModel.m in Sources */,
+				840C43461FAC2604000A2321 /* ViewController.m in Sources */,
+				840C439F1FAC2E90000A2321 /* QQReadActivity.m in Sources */,
+				840C43B61FAC30F3000A2321 /* UIView+CustomAutoLayout.m in Sources */,
+				840C43511FAC2604000A2321 /* main.m in Sources */,
+				840C43A21FAC2E9C000A2321 /* WeixinSessionActivity.m in Sources */,
+				840C439B1FAC2E7E000A2321 /* JYFileListVC.m in Sources */,
+				840C43431FAC2604000A2321 /* AppDelegate.m in Sources */,
+				840C439E1FAC2E8D000A2321 /* QQActivity.m in Sources */,
+				840C439A1FAC2E7A000A2321 /* JYFileListCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840C43521FAC2604000A2321 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840C435B1FAC2604000A2321 /* BYAropTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840C435D1FAC2604000A2321 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840C43661FAC2604000A2321 /* BYAropUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		840C43581FAC2604000A2321 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 840C433D1FAC2604000A2321 /* BYArop */;
+			targetProxy = 840C43571FAC2604000A2321 /* PBXContainerItemProxy */;
+		};
+		840C43631FAC2604000A2321 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 840C433D1FAC2604000A2321 /* BYArop */;
+			targetProxy = 840C43621FAC2604000A2321 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		840C43471FAC2604000A2321 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				840C43481FAC2604000A2321 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		840C434C1FAC2604000A2321 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				840C434D1FAC2604000A2321 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		840C43681FAC2604000A2321 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		840C43691FAC2604000A2321 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		840C436B1FAC2604000A2321 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FCEBAA3DC15B662FCBCAE04 /* Pods-BYArop.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L4285ALH3W;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BYArop/FileMenu/QQActivity/QQSDK",
+					"$(PROJECT_DIR)/BYArop/Resource/ShareSDK/Support/PlatformSDK/QQSDK",
+					"$(PROJECT_DIR)/BYArop/Resource/ShareSDK/Support/Optional",
+					"$(PROJECT_DIR)/BYArop/Resource/ShareSDK/Support/Required",
+					"$(PROJECT_DIR)/BYArop/Resource/ShareSDK",
+					"$(PROJECT_DIR)/BYArop/Resource/PlatformSDK/QQSDK",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/BYArop/PrefixHeader.pch";
+				INFOPLIST_FILE = BYArop/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BYArop/FileMenu/WeixinActivity/WeChatSDK",
+					"$(PROJECT_DIR)/BYArop/Resource/ShareSDK/Support/PlatformSDK/WeChatSDK",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xinghaiwulian.BYArop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		840C436C1FAC2604000A2321 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7ECD99A9A09581A91796BF72 /* Pods-BYArop.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L4285ALH3W;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BYArop/FileMenu/QQActivity/QQSDK",
+					"$(PROJECT_DIR)/BYArop/Resource/ShareSDK/Support/PlatformSDK/QQSDK",
+					"$(PROJECT_DIR)/BYArop/Resource/ShareSDK/Support/Optional",
+					"$(PROJECT_DIR)/BYArop/Resource/ShareSDK/Support/Required",
+					"$(PROJECT_DIR)/BYArop/Resource/ShareSDK",
+					"$(PROJECT_DIR)/BYArop/Resource/PlatformSDK/QQSDK",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/BYArop/PrefixHeader.pch";
+				INFOPLIST_FILE = BYArop/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BYArop/FileMenu/WeixinActivity/WeChatSDK",
+					"$(PROJECT_DIR)/BYArop/Resource/ShareSDK/Support/PlatformSDK/WeChatSDK",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xinghaiwulian.BYArop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		840C436E1FAC2604000A2321 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BYAropTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xinghaiwulian.BYAropTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BYArop.app/BYArop";
+			};
+			name = Debug;
+		};
+		840C436F1FAC2604000A2321 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BYAropTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xinghaiwulian.BYAropTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BYArop.app/BYArop";
+			};
+			name = Release;
+		};
+		840C43711FAC2604000A2321 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BYAropUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xinghaiwulian.BYAropUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BYArop;
+			};
+			name = Debug;
+		};
+		840C43721FAC2604000A2321 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BYAropUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xinghaiwulian.BYAropUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BYArop;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		840C43391FAC2604000A2321 /* Build configuration list for PBXProject "BYArop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840C43681FAC2604000A2321 /* Debug */,
+				840C43691FAC2604000A2321 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		840C436A1FAC2604000A2321 /* Build configuration list for PBXNativeTarget "BYArop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840C436B1FAC2604000A2321 /* Debug */,
+				840C436C1FAC2604000A2321 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		840C436D1FAC2604000A2321 /* Build configuration list for PBXNativeTarget "BYAropTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840C436E1FAC2604000A2321 /* Debug */,
+				840C436F1FAC2604000A2321 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		840C43701FAC2604000A2321 /* Build configuration list for PBXNativeTarget "BYAropUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840C43711FAC2604000A2321 /* Debug */,
+				840C43721FAC2604000A2321 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 840C43361FAC2604000A2321 /* Project object */;
+}

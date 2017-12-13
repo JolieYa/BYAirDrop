@@ -1,0 +1,8 @@
+platform :ios, '9.0'
+
+target "BYArop" do
+    
+ pod 'WechatOpenSDK', '~>1.7.9'
+ 
+ 
+end

@@ -1,0 +1,20 @@
+//
+//  PrefixHeader.pch
+//  BYArop
+//
+//  Created by admin on 2017/11/3.
+//  Copyright © 2017年 XHWL. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define JZMWIDTH            [UIScreen mainScreen].bounds.size.width
+#define JZMHEIGHT           [UIScreen mainScreen].bounds.size.height
+#define RGBAOF(v, a)            [UIColor colorWithRed:((float)(((v) & 0xFF0000) >> 16))/255.0 \
+green:((float)(((v) & 0x00FF00) >> 8))/255.0 \
+blue:((float)(v & 0x0000FF))/255.0 \
+alpha:a]
+#define JZMMainColor                RGBAOF(0x0abfab, 1.0)   // 使用场景：app界面底色，整体色调
+
+#endif /* PrefixHeader_pch */

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string>需求分析说明书模板</string>
+		<key>type</key>
+		<string>doc</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>聚合接口API</string>
+		<key>type</key>
+		<string>docx</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>核心代码片段</string>
+		<key>type</key>
+		<string>docx</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>2011华为笔试题</string>
+		<key>type</key>
+		<string>txt</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>屏幕快照 2017-03-09 上午11.21.11</string>
+		<key>type</key>
+		<string>png</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>765405820160423163637</string>
+		<key>type</key>
+		<string>pdf</string>
+	</dict>
+</array>
+</plist>
